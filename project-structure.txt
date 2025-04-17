@@ -1,0 +1,21 @@
+ANN-Classification-Complete-Project/
+├── data/
+│   └── diabetes.csv                      # Dataset file
+├── models/
+│   ├── best_model.h5                     # Trained model weights
+│   └── scaler.pkl                        # Saved StandardScaler object
+├── logs/
+│   └── fit/                              # TensorBoard logs directory
+├── visualizations/
+│   ├── correlation_matrix.png            # Feature correlation visualization
+│   ├── feature_distributions.png         # Distribution of features
+│   ├── class_distribution.png            # Distribution of target classes
+│   ├── training_history.png              # Training and validation metrics
+│   ├── confusion_matrix.png              # Confusion matrix visualization
+│   └── roc_curve.png                     # ROC curve visualization
+├── evaluation/
+│   └── classification_report.txt         # Detailed model performance metrics
+├── app.py                                # Streamlit web application
+├── model_training.py                     # Model definition and training script
+├── requirements.txt                      # Package dependencies
+└── README.md                             # Project documentation
